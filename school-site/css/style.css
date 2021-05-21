@@ -79,33 +79,135 @@ header, footer {
 
 /* Imported Typfaces */
 
+@font-face {
+    font-family: Montserrat;
 
+    src: url(/Users/alexmartinez/Downloads/school-site/fonts/montserrat-regular.ttf) format('truetype');
+    font-weight:normal;
+font-style:normal;
+    
 
+}
+@font-face {
+    font-family: josefinslab;
+    src: url(/Users/alexmartinez/Downloads/school-site/fonts/josefinslab-regular.ttf) format('truetype');
+    font-weight:normal;
+font-style:normal;
+}
 
 
 /* Typography Styles */
 
+html {
+    font-family: "Montserrat", Arial, sans-serif;
+    
+}
 
+h1 {
+    letter-spacing: 0.125rem;
+    font-family: Josefinslab, Garamond, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size:3.75rem;
+    margin:1.125rem;
+    text-align: center;
+}
 
+h2 {
+    letter-spacing: 0.125rem;
+font-family: Josefinslab, sans-serif;
+font-size:1.5rem;
+}
 
+h2 + p {}
 
+p {
+    text-indent: 1.25rem;
+}
 
+li {}
+
+figcaption {}
 /* Link Styling */
 
+a {
+    color: black;
+    text-decoration: underline;
+}
 
+a:link,
+a:visited {
+    outline: none;
+    text-decoration: none;
+    padding: .25rem .125rem 0;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    outline: none;
+    border-bottom: .0625rem;
+    background: #33658A;
+    background-color: #ffffff;
+
+}
 
 
 
 
 /* List Styling */
 
+ul {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    list-style-type: square;
+    list-style-position: inside;
+    
+}
 
+ol{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    list-style-type: lower-alpha;
+}
+
+.long-list a:hover {}
 
 
 
 
 /* Navigation Menu */
 
+nav {
+  padding-right: 0%;  
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    font-size: 1.125;
+    margin-bottom: 1.5rem;
+    border: solid .063rem #33658A;
+}
+
+nav a:focus,
+nav a:hover{
+    text-decoration: none;
+    background-color: #ffffff;
+    color: white;
+}
+
+nav a:active {
+    display: inline-block;
+    line-height: 5em;
+    border: .125rem;
+    border-radius: .1875;
+    text-align: center;
+    margin-top: 1em;
+}
 
 
 
@@ -113,6 +215,9 @@ header, footer {
 
 /* Footer Styles */
 
+footer {
+    font-size: .9375;
+}
 
 
 
